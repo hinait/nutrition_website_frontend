@@ -154,3 +154,23 @@ td {
 .search-result-item:last-child {
   border-bottom: none;
 }
+.page-wrapper {
+  min-height: 100vh;  /* 保證最少有一整頁高度 */
+}
+
+.page-wrapper::before {
+  content: "";
+  position: fixed;       /* ✅ 固定位置，不會跟著滾動 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/background.png');
+  background-size: cover;           /* ✅ 讓圖片鋪滿但不重複 */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;     /* ✅ 這個是關鍵 */
+  filter: blur(1.5px);
+  opacity: 0.9;
+  z-index: -1;
+}

@@ -51,6 +51,7 @@ const HomePage  = ({ children }) => {
     }
 
     return (
+        <div className="page-wrapper">
         <div className="container">
             <div className="auth-links">
                 {isLoggedIn ? (
@@ -80,7 +81,7 @@ const HomePage  = ({ children }) => {
             {error && <p className="error">{error}</p>}
             {children}
         </div>
-
+        </div>
     );
 
 };

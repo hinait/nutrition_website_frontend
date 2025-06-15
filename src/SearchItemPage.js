@@ -28,6 +28,7 @@ const SearchItemPage = () => {
     return (
         <>
             <HomePage />
+<div className="page-wrapper">
             <div className="container">
                 <h2>Search Results</h2>
                 {results.length > 0 && (
@@ -59,6 +60,8 @@ const SearchItemPage = () => {
                     </table>
                 )}
             </div>
+</div>
+
         </>
     );
 }

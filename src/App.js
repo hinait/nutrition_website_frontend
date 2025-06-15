@@ -8,7 +8,6 @@ import RegisterPage from "./RegisterPage";
 import AccountPage from "./AccountPage";
 import SearchItemPage from "./SearchItemPage";
 import HistoryPage from "./HistoryPage";
-import background from "./assets/background.png";
 
 // test for commit
 

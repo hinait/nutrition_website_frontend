@@ -11,6 +11,7 @@ const SearchResultsPage = () => {
     return (
         <>
             <HomePage />
+<div className="page-wrapper">
         <div className="container">
             <h1>Food Details</h1>
             {Object.keys(foodDetails).length > 0 ? (
@@ -49,6 +50,7 @@ const SearchResultsPage = () => {
                 <p>No food details found.</p>
             )}
         </div>
+</div>
         </>
     );
 };
