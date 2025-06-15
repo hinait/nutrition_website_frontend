@@ -10,15 +10,19 @@ This repository is intended to showcase the **frontend UI, user flow, and design
 
 - 🧱 **[AWS Architecture diagram used during the project]** (https://1drv.ms/f/c/90e734331ddc2501/EjMvh-mg6Y9Iua_YIB6zP-8B8TidBE_KwvglPjhCWrO35g?e=c1b1Mf)
 - 🧠 **[Report Submission]** (https://1drv.ms/b/c/90e734331ddc2501/EeU4r6E6Dq5OjT8E7IE27HsBDENMRQjQ1zggGn8ID4-PbQ?e=OEUPmY)
+- 👉 **[Nutrition_website_Backend]**(https://github.com/hinait/Nutrition_website_backend.git)
 
-👉 For a detailed breakdown of the system architecture and AWS services used, please check my blog post here.
 
+## How to Run the Frontend locally
 
-## How to Run the Frontend 
+- git clone :
+
+https://github.com/hinait/Nutrition_website_frontend.git
+cd compx527-frontend-react
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
