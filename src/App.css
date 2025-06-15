@@ -1,0 +1,156 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="name"],
+input[type="confirmpassword"]{
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #28a745;
+}
+
+button {
+  padding: 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.auth-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.auth-links a,
+.auth-links p{
+  margin-left: 15px;
+  color: #28a745;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.auth-links a:hover,
+.auth-links p:hover{
+  text-decoration: underline;
+}
+
+/* Specific styling for login and register pages */
+.auth-container {
+  max-width: 550px; /* Smaller width for login/register */
+  margin: 130px auto; /* Center vertically and horizontally */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/*set for accountpage*/
+.input-style {
+  display: inline-block;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+  width: calc(100% - 26px);
+}
+
+.input-style:focus {
+  border-color: #28a745;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: #333;
+}
+
+td {
+  background-color: #fff;
+}
+
+.search-results-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-result-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
