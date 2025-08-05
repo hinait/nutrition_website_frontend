@@ -2,15 +2,14 @@
 
 ## Note: Backend Services Are Currently Offline
 
-This frontend was developed by me as the frontend developer in a group project for COMPX527 at the *University of Waikato*.  
+This frontend was developed by me as the frontend developer in a group project.  
 The frontend was built using **React.js**, while the backend services were developed by two teammates using **Python**, and hosted on **AWS** (EC2, DynamoDB, etc.).
 
 To avoid unnecessary costs and redeployment, backend services have not been restored.  
 This repository is intended to showcase the **frontend UI, user flow, and design**, and includes:
 
-- 🧱 **[AWS Architecture diagram used during the project]** (https://1drv.ms/f/c/90e734331ddc2501/EjMvh-mg6Y9Iua_YIB6zP-8B8TidBE_KwvglPjhCWrO35g?e=c1b1Mf)
-- 🧠 **[Report Submission]** (https://1drv.ms/b/c/90e734331ddc2501/EeU4r6E6Dq5OjT8E7IE27HsBDENMRQjQ1zggGn8ID4-PbQ?e=OEUPmY)
-- 👉 **[Nutrition_website_Backend]**(https://github.com/hinait/Nutrition_website_backend.git)
+-  **[AWS Architecture diagram used during the project]** (https://1drv.ms/f/c/90e734331ddc2501/EjMvh-mg6Y9Iua_YIB6zP-8B8TidBE_KwvglPjhCWrO35g?e=c1b1Mf)
+-  **[Nutrition_website_Backend]**(https://github.com/hinait/Nutrition_website_backend.git)
 
 
 ## How to Run the Frontend locally
