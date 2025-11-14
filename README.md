@@ -11,6 +11,23 @@ This repository is intended to showcase the **frontend UI, user flow, and design
 -  **[AWS Architecture diagram used during the project]** (https://1drv.ms/f/c/90e734331ddc2501/EjMvh-mg6Y9Iua_YIB6zP-8B8TidBE_KwvglPjhCWrO35g?e=c1b1Mf)
 -  **[Nutrition_website_Backend]**(https://github.com/hinait/Nutrition_website_backend.git)
 
+## UI
+
+Home page
+
+![Home Page](./Public/page1.png)
+
+Register Page
+
+![Register Page](./Public/page2.png)
+
+Food detail Page
+
+![Food detail Page](./Public/page3.png)
+
+Food detail Page 2
+
+![Food detail Page](./Public/page4.png)
 
 ## How to Run the Frontend locally
 
