@@ -15,19 +15,19 @@ This repository is intended to showcase the **frontend UI, user flow, and design
 
 Home page
 
-![Home Page](./Public/page1.png)
+![Home Page](./public/page1.png)
 
 Register Page
 
-![Register Page](./Public/page2.png)
+![Register Page](./public/page2.png)
 
 Food detail Page
 
-![Food detail Page](./Public/page3.png)
+![Food detail Page](./public/page3.png)
 
 Food detail Page 2
 
-![Food detail Page](./Public/page4.png)
+![Food detail Page](./public/page4.png)
 
 ## How to Run the Frontend locally
 
